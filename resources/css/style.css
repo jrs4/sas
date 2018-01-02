@@ -151,6 +151,7 @@ nav li{
 .infobox p{
   background-color: white;
   color: black;
+  padding-top: 0.25rem;
 }
 
 /*Footer*/
@@ -196,6 +197,55 @@ footer{
 
 /*Phone Screen Width > 470px*/
 @media only screen and (max-width: 470px){
-  /*Banner*/
+  /*Main Banner*/
+  .banner{
+    height: 15rem;
+  }
 
+  .letters{
+    width: 100%;
+    margin-top: 10rem;
+  }
+
+  .letters h3{
+    font-size: 0.77rem;
+    padding: 1rem 0rem 0rem 2rem;
+  }
+
+  .letters h1{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.25rem 0rem 1rem 2rem;
+  }
+
+  /*Products*/
+  .product{
+    width: 90%;
+  }
+
+  .grid{
+    justify-content: center;
+  }
+
+  .watch,
+  .glasses{
+    display: none;
+  }
+
+  /*Information*/
+  .info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .infobox{
+    width: 90%;
+    margin: 0.5rem 0rem;
+  }
+
+  /*Footer*/
+  footer{
+    text-align: center;
+  }
 }
